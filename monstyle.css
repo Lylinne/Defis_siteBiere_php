@@ -1,0 +1,316 @@
+header{
+	background: #1c1c1c;
+	border: 4px solid ;
+	border-radius: 8px;
+}
+h1{
+	color: #d8d8d8;
+	text-align: center;
+	font-size: 3em;
+}
+section{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+article{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	text-align: center;
+	width: 22%;
+	margin: 1%;
+	padding: 0.5%; 
+	border: 3px double #72d4f4;
+	border-radius: 3%;
+}
+img{
+	width: 15%;
+	margin-left: 45%;
+}
+button.lien{
+	width: 10%;
+	height: 2vw;
+	margin-left: 90%;
+	margin-top: 3%;
+	background: #72d4f4;
+	box-shadow: 1px 3px 5px 3px #1c1c1c;
+	border-radius: 8px;
+}
+body{
+	background-color: #d1f7ed;
+	background-image: url("https://www.transparenttextures.com/patterns/foggy-birds.png");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+	header{
+	background: #1c1c1c;
+	border: 1px solid #4093A4;
+	border-radius: 8px;
+	margin-top: -3%;
+	margin-left: -3%;
+	margin-right: -3%;
+	height: 20vw;
+}
+	h1{
+	text-align: center;
+	color: #d8d8d8;
+	
+}
+img{
+	width: 35%;
+	margin-left: 33%;
+}
+section{
+	display: flex;
+	flex-direction: column;
+	margin: 1%;
+}
+p{
+	width: 100%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* {
+	animation: 5s infinite alternate tourne;
+}
+
+@keyframes tourne {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    transform: rotate(360deg);
+  }
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
