@@ -12,8 +12,8 @@ if (isset($_SESSION["connect"])) {
 }else{
 	$connect = false;
 }
-if (!empty($connect)){
-	header("Location: page.php");	
+if (empty($connect)){
+	//header("Location: page.php");	
 }
 
 if (isset($_SESSION["username"])) {

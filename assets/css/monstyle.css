@@ -3,6 +3,15 @@ header{
 	border: 4px solid ;
 	border-radius: 8px;
 }
+ul{
+	list-style: none;
+	display: flex;
+	font-size: 1.5em;
+	justify-content: space-around;
+}
+.nave{
+	color: #d8d8d8;
+}
 h1{
 	color: #d8d8d8;
 	text-align: center;
@@ -19,28 +28,29 @@ article{
 	flex-direction: column;
 	justify-content: space-between;
 	text-align: center;
-	width: 22%;
-	margin: 1%;
-	padding: 0.5%; 
+	width: 15%;
+	margin-left: 5%;
+	margin-top: 2%;
+	padding: .7%; 
 	border: 3px double #72d4f4;
 	border-radius: 3%;
 }
 img{
 	width: 15%;
-	margin-left: 45%;
+	margin-left: 0%;
 }
-button.lien{
-	width: 10%;
-	height: 2vw;
-	margin-left: 90%;
+p{
+	text-align: justify;
+}
+.lien{
+	width: 30%;
+	height: 4vw;
+	margin-left: 35%;
+	margin-bottom: 2%;
 	margin-top: 3%;
 	background: #72d4f4;
 	box-shadow: 1px 3px 5px 3px #1c1c1c;
 	border-radius: 8px;
-}
-body{
-	background-color: #d1f7ed;
-	background-image: url("https://www.transparenttextures.com/patterns/foggy-birds.png");
 }
 
 
@@ -70,24 +80,46 @@ body{
 	margin-top: -3%;
 	margin-left: -3%;
 	margin-right: -3%;
-	height: 20vw;
+	height: 25vw;
 }
-	h1{
+h1{
+	font-size: 2em;
+	margin-top: 6%;
 	text-align: center;
 	color: #d8d8d8;
 	
 }
-img{
-	width: 35%;
-	margin-left: 33%;
+.lien{
+	margin-bottom: 3%;
+	width: 50%;
+	height: 12vw;
+	margin-top: 3%;
+	background: #72d4f4;
+	box-shadow: 1px 3px 5px 3px #1c1c1c;
+	border-radius: 8px;
 }
-section{
-	display: flex;
-	flex-direction: column;
-	margin: 1%;
+h2{
+	margin-top: -1%;
+	font-size: 1.1em;
+}
+img{
+	width: 13%;
+	margin-left: 0%;
+}
+article{
+	margin-left: 0%;
+	height: 90vw;
+	width: 72%;
+	padding: 1%; 
+	border: 3px double #72d4f4;
+	border-radius: 3%;
 }
 p{
-	width: 100%;
+	width: 90%;
+	margin-top: -1%;
+}
+h3{
+	margin-top: -1%;
 }
 }
 
